@@ -1,0 +1,332 @@
+*{
+    margin: 0;
+}
+
+body{
+   
+   font-family: 'Ubuntu', sans-serif;
+}
+
+.container{
+    width: 1140px;
+    background: linear-gradient(1000deg, #03A9F4, transparent);
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.row{ width: 100%; }
+
+.col-1{
+    width: 8.33%;
+    float:left;
+}
+
+.col-2{
+    width: 16.67%;
+    float:left;
+}
+
+.col-3{
+    width: 25%;
+    float:left;
+}
+
+.col-4{
+    width: 33.33%; 
+    float:left;
+}
+
+.col-5{
+    width:41.65%; 
+    float:left;
+}
+
+.col-6{
+    width: 50%; 
+    float:left;
+}
+
+.col-7{
+    width: 58.33%;
+    float:left;
+}
+
+.col-8{
+    width: 66.67%;
+    float:left;
+}
+
+.col-9{
+    width: 75%;
+    float:left;
+}
+
+.col-10{
+    width: 83.33%;
+    float:left;
+}
+
+.col-11{
+    width: 91.67%;
+    float:left;
+}
+
+.col-12{
+    width: 100%; 
+    float:left;
+}
+
+section{
+    float: left;
+    width: 100%;
+
+}
+
+.img-fluid{
+    width: 100%;
+}
+
+
+.div-clear{
+    clear: both;
+}
+
+/*Header CSS Start*/
+
+header{
+    margin-bottom: 50px;
+}
+
+header h2{
+    text-align: right;
+    color: #505457;
+    background: radial-gradient(#ffeb3b, transparent);
+    padding: 5px;
+} 
+
+
+/*Personal-Info CSS*/
+
+.personal-info{
+    margin-bottom: 25px;
+}
+
+.personal-info h3{
+    font-size: 25px;
+    margin-bottom: 10px;
+    color: blue;
+}
+
+.personal-info p{margin-bottom: 5;margin-bottom: 5px;line-height: 1.7;}
+
+.personal-info img{
+    width: 170px;
+    height: 207px;
+    float: right;
+}
+
+
+/*Edu-Bg CSS*/
+
+.edu-bg{
+    margin-bottom: 25px;
+}
+
+.edu-bg h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.edu-bg .edu-level{
+    margin-bottom: 10px;
+}
+
+.edu-bg .edu-level h4{
+    font-size: 20px;
+    color: #505457;
+    margin-bottom: 5px;
+    background: radial-gradient(#FFC107, transparent);
+    
+} 
+
+.edu-bg .edu-level .session{
+    width: 100%;
+    text-align: right;
+}
+
+.edu-bg .edu-level p{
+    line-height: 1.7;
+}
+
+
+/*Work Experience CSS*/
+
+.work-experience{
+    margin-bottom: 25px;
+}
+
+.work-experience h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.work-experience h4{
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 5px;
+}
+
+.work-experience p{
+    line-height: 1.7;
+}
+
+
+/*Intern CSS Start*/
+
+.intern{
+    margin-bottom: 25px;
+}
+
+.intern h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.intern ul{}
+
+.intern ul li{
+    line-height: 1.7;
+}
+
+
+/*Skills CSS*/
+
+.skills{
+    margin-bottom: 25px;
+}
+
+.skills h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.skills h4{
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.skills ul{
+    margin-bottom: 10px;
+}
+
+.skills ul li{
+    line-height: 1.7;
+}
+
+
+
+/*Extra Activity CSS*/
+
+.extra-activity{
+    margin-bottom: 25px;
+}
+
+.extra-activity h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.extra-activity h4{
+    font-size: 18px;
+    color: orangered;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+.extra-activity ul{}
+
+.extra-activity ul li{
+    line-height: 1.7;
+}
+
+
+
+/*Reference CSS*/
+
+.reference{
+    margin-bottom: 25px;
+}
+
+.reference h3{
+    font-size: 25px;
+    color: blue;
+    margin-bottom: 10px;
+}
+
+.reference h4{
+    color: orangered;
+    margin-bottom: 5px;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+
+.reference p{
+    padding: 0 20px;
+    line-height: 1.7;
+}
+
+.reference h6{
+    color: #505457;
+    margin-bottom: 5px;
+    padding: 0 20px;
+}
+
+
+
+/* Footer CSS */
+
+.footer{
+    padding: 10px 0;
+    margin-top: 30px;
+}
+.footer p{
+    color: #505457;
+    margin-top: 10px;
+    text-align: center;
+    float: right;
+    padding-right: 50px;
+}
+.footer ul{
+    padding-left: 0;
+    float: right;
+}
+.footer ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 5px;
+}
+
+.footer ul li:last-child{
+    margin-right: 0;
+}
+.footer ul li i{
+    width: 40px;
+    height: 40px;
+    background: yellow;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 3px;
+    color: #505457;
+}
+
+.footer .icon{
+    float: left;
+    padding-left: 50px;
+}
